@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Create an account</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body style="background-color: rgb(204, 197, 197);">
+        <header class="account-creation-header">
+            <h1>Create an account</h1>    
+        </header>
+
+        <a class="back-button" href="home.html">Back</a><br><br><br>
+        
+        <form class="account-creation-form">
+            <input class="account-fields" type="text" name="firstName" id="firstName" placeholder="First Name" required> <br><br>
+            <input class="account-fields" type="text" name="firstName" id="firstName" placeholder="Last Name" required><br><br>
+            <input class="account-fields" type="email" name="email" id="email" placeholder="Email address" required><br><br>
+            <input class="account-fields" type="text" name="city" id="city" placeholder="City" required><br><br>
+            <p>Gender:</p><br><br>
+            <input class="gender" type="radio" name="gender" value="male" id = "male">
+            <label for="male">Male</label><br>
+            <input class="gender" type="radio" name="gender" value="female" id="female">
+            <label for="female">Female</label><br>
+            <input class="gender" type="radio" name="gender" value="other" id="other">
+            <label for="other">Other</label><br>
+            <input class="submit-button" type="submit" value="Submit">
+        </form><br>
+
+        <footer>
+            <p class="copyright"> Copyright 2024 Scott Hebert</p>
+        </footer>
+    </body>
+</html>
